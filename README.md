@@ -1,4 +1,9 @@
-﻿# Car License Plate Detection
+<p align="center">
+ ![Image](https://github.com/user-attachments/assets/afd6a881-59b2-4e54-9eb7-447b68a90c38)
+ </p>
+
+ 
+ # Car License Plate Detection
 
 This repository contains the **Final Project** of the **Data Science** course at the **University of Tehran**.  
 We developed a complete workflow for **car license plate detection** — covering dataset preparation, exploratory visualization, feature engineering, and the training & evaluation of **deep learning models**.
