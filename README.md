@@ -166,6 +166,8 @@ We used Faster R-CNN (via `torchvision.models.detection`) to localize license pl
 │  └─ dataset.db
 ├─ scripts/
 │  ├─ database_connection.py
+│  ├─ evaluate_ocr.py
+│  ├─ worth_ocr_predictor.py
 │  ├─ load_data.py
 │  ├─ preprocess.py
 │  ├─ feature_engineering.py
