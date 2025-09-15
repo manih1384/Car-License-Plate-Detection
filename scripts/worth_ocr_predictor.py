@@ -10,15 +10,13 @@ from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 
-# === SETTINGS ===
-train_mode = True  # Set to False to skip training
+train_mode = True  
 model_dir = "models"
 os.makedirs(model_dir, exist_ok=True)
 
 db_path = "your_database_path.db"
 label_path = "ocr_labels.csv"
 
-# === Load labels and features ===
 df_labels = pd.read_csv(label_path)
 
 conn = sqlite3.connect(db_path)
@@ -33,12 +31,10 @@ conn.close()
 
 df = pd.merge(df_labels, df_features, on="preprocessed_plate", how="inner")
 
-# === Prepare data ===
 features = ['blur_score', 'bbox_width', 'bbox_height', 'aspect_ratio', 'area_fraction']
 X = df[features]
 y = df['worth_ocr']
 
-# === Models to train/test ===
 model_defs = {
     'random_forest': RandomForestClassifier(),
     'log_reg': LogisticRegression(max_iter=1000),
@@ -46,7 +42,6 @@ model_defs = {
     'xgboost': XGBClassifier(use_label_encoder=False, eval_metric='logloss')
 }
 
-# === Training Mode ===
 if train_mode:
     X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)
 
@@ -59,8 +54,8 @@ if train_mode:
         joblib.dump(model, os.path.join(model_dir, f"{name}.pkl"))
     print("✅ All models trained and saved.")
 else:
-    # === Inference Mode: Use best model (e.g. RandomForest)
-    model_name = "random_forest"  # You can change this to 'xgboost', etc.
+
+    model_name = "random_forest"  
     model_path = os.path.join(model_dir, f"{model_name}.pkl")
 
     if not os.path.exists(model_path):
