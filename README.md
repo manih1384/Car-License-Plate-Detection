@@ -1,31 +1,28 @@
-# 🚗 Car Plate Detection Pipeline
+# Car License Plate Detection 
 
 This project implements a complete AI pipeline for detecting and preprocessing car plate annotations. It includes database loading, data cleaning, feature engineering, and image preprocessing for OCR-ready plate regions.
 
----
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── database/
 │   └── dataset.db                 # SQLite database
 ├── content/                
-|   ├── annotations/               # Raw annotation files (downloaded from kaggle.com/andrewmvd/car-plate-detection)
-|   ├── images/                    # Raw car images (downloaded from kaggle.com/andrewmvd/car-plate-detection) 
-|   ├── plates/                    # Folder for preprocessed plate images
+|   ├── annotations/               # Raw annotation files (downloaded from kaggle)
+|   ├── images/                    # Raw car images (download from kaggle) 
 ├── scripts/
 │   ├── database_connection.py     # Database connection utility
 │   ├── load_data.py               # Loads data from database
 │   ├── preprocess.py              # Data cleaning, normalization, blurry detection
 │   ├── feature_engineering.py     # Advanced visual/spatial feature extraction
-├── pipeline.py                    # Master script to run the full pipeline
-├── requirements.txt               # Python dependencies
-├── README.md                      # Project documentation
+├── pipeline.py                    
+├── requirements.txt               
+├── README.md                      
 ```
 
----
 
-## 🚀 Pipeline Overview
+## Pipeline Overview
 
 ### 1. `database_connection.py`
 
@@ -61,39 +58,21 @@ Executes the entire workflow in sequence:
 python pipeline.py
 ```
 
----
 
-## 📦 Requirements
 
-Install all dependencies:
+## Contributors
 
-```bash
-pip install -r requirements.txt
-```
+<div align="center">
 
-**requirements.txt:**
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ParsaBukani">Parsa Bukani</a></td>
+    <td style="width:80px"></td> <!-- spacer column -->
+    <td align="center"><a href="https://github.com/manih1384">Mani Hosseini</a></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center"><a href="https://github.com/erfan-f">Erfan Falahati</a></td>
+  </tr>
+</table>
 
-```
-numpy
-pandas
-opencv-python
-scikit-learn
-```
-
----
-
-## 📂 Outputs
-
-* Preprocessed plate images saved to: `content/plates/`
-* Engineered features saved to:
-
-  * `database/engineered_plate_features` (table)
-  * `engineered_features.csv`
-
----
-
-## 👥 Contributors
-
-* Parsa Bukani - SID: 810102501
-* Mani Hosseini - SID: 810102552
-* Erfan Falahati - SID: 810102491
+</div>
