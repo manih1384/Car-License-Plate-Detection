@@ -183,7 +183,8 @@ We used Faster R-CNN (via `torchvision.models.detection`) to localize license pl
 ├─ Presentation.pdf
 ├─ Initial Dataset Visualization.pbix
 ├─ requirements.txt
-└─ README.md
+├─ README.md
+└─ License
 ```
 
 ----------
