@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4b5d2dcf-1e14-4a23-b25e-0a0cf62e2b7a" alt="Car License Plate Detection" width="800"/>
+</p>
+
  # Car License Plate Detection
 
 This repository contains the **Final Project** of the **Data Science** course at the **University of Tehran**.  
