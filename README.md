@@ -16,7 +16,7 @@ The project was carried out in three structured phases and implemented in a **Ju
     <img width="2026" height="1077" alt="Image" src="https://github.com/user-attachments/assets/ac6d0ee2-db15-4f46-9ec3-64d89924d2d4" />
 </p>
 
-  _For More Tools And Interactive Filtering visit File: [Initial Dataset Visualization.pbix](https://github.com/manih1384/FINAL_DS_PROJECT/blob/main/Initial%20Dataset%20Visualization.pbix)_
+  _For More Tools and Interactive Filtering Visit the File [Initial Dataset Visualization.pbix](https://github.com/manih1384/FINAL_DS_PROJECT/blob/main/Initial%20Dataset%20Visualization.pbix)_
 
 
 ### Phase 2 — Feature Engineering & Preprocessing
@@ -111,20 +111,23 @@ We used Faster R-CNN (via `torchvision.models.detection`) to localize license pl
 
 
  >   Training loss/accuracy curves
+
    <p align="center">
               <img width="1774" height="728" alt="Image" src="https://github.com/user-attachments/assets/46c23e98-de17-46c7-996c-32b36d730ec6" />
 </p>
 
  >   Detected plates overlay
-     <p align="center">
+
+<p align="center">
      <img width="404" height="400" alt="Image" src="https://github.com/user-attachments/assets/a0658f21-5428-45be-a2af-91fe10ec9894" />
 
 </p>
 
  >   OCR examples
- 
+     
    <p align="center">
 <img width="746" height="239" alt="Image" src="https://github.com/user-attachments/assets/fd47e81a-0c8f-42f0-bef0-e1d1d8e8817f" />
+	   
 </p>
 
 
@@ -193,7 +196,7 @@ We used Faster R-CNN (via `torchvision.models.detection`) to localize license pl
 
 ## Join the Project  
 
-Contributions are welcome! 
+Contributions are welcome!   
 Whether it’s refining preprocessing, testing new OCR/detection models, or expanding the dataset — feel free to open an issue or submit a PR.  
 
 ## License
