@@ -105,9 +105,9 @@ We used Faster R-CNN (via `torchvision.models.detection`) to localize license pl
 	* Accuracy: \~88%
 	* F1-score: \~0.93
 * **OCR Tools**:
-	 - **EasyOCR**: Exact Match 0.13, Char. Accuracy 0.41  
-	  - **TrOCR**: Exact Match 0.26, Char. Accuracy 0.67  
-	  - ➝ TrOCR consistently outperformed EasyOCR, but both struggled with **blurry or oblique plates**.  
+	 - **EasyOCR**: Exact Match 0.13, Char. Accuracy 0.41
+     - **TrOCR**: Exact Match 0.26, Char. Accuracy 0.67
+  	 - TrOCR consistently outperformed EasyOCR, but both struggled with **blurry or oblique plates**.  
 
 
  >   Training loss/accuracy curves
