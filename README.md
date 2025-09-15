@@ -3,7 +3,7 @@
 This repository contains the **Final Project** of the **Data Science** course at the **University of Tehran**.  
 We developed a complete workflow for **car license plate detection** — covering dataset preparation, exploratory visualization, feature engineering, and the training & evaluation of **deep learning models**.
 
-The project was carried out in three structured phases and implemented in a **Jupyter notebook (`car_plate_detection.ipynb`)** and **modular Python scripts**.
+The project was carried out in **three structured phases**, implemented in a Jupyter notebook (`car_plate_detection.ipynb`), supported by modular Python scripts, and summarized in a formal [Presentation](./Presentation.pdf).  
 
 
 ## Project Overview
