@@ -94,7 +94,7 @@ We used Faster R-CNN (via `torchvision.models.detection`) to localize license pl
 		- **Integration:** Detected plate crops were passed downstream for CNN classification and OCR. 
 		
 -   Evaluated on detection rate, IoU, accuracy, and OCR-readiness.
--   Benchmarked against OCR testing tools with EasyOCR, TrOCR.
+-   Benchmarked against OCR testing tools with EasyOCR and TrOCR.
         
 
 ## Results
