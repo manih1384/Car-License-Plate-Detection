@@ -67,7 +67,6 @@ python pipeline.py
 <table>
   <tr>
     <td align="center"><a href="https://github.com/ParsaBukani">Parsa Bukani</a></td>
-    <td style="width:80px"></td> <!-- spacer column -->
     <td align="center"><a href="https://github.com/manih1384">Mani Hosseini</a></td>
   </tr>
   <tr>
