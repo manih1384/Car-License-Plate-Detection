@@ -110,19 +110,18 @@ We used Faster R-CNN (via `torchvision.models.detection`) to localize license pl
 	  - ➝ TrOCR consistently outperformed EasyOCR, but both struggled with **blurry or oblique plates**.  
 
 
- > **Visual Results**
- -   Training loss/accuracy curves
+ >   Training loss/accuracy curves
    <p align="center">
               <img width="1774" height="728" alt="Image" src="https://github.com/user-attachments/assets/46c23e98-de17-46c7-996c-32b36d730ec6" />
 </p>
 
- -   Detected plates overlay
+ >   Detected plates overlay
      <p align="center">
      <img width="404" height="400" alt="Image" src="https://github.com/user-attachments/assets/a0658f21-5428-45be-a2af-91fe10ec9894" />
 
 </p>
 
- -   OCR examples
+ >   OCR examples
  
    <p align="center">
 <img width="746" height="239" alt="Image" src="https://github.com/user-attachments/assets/fd47e81a-0c8f-42f0-bef0-e1d1d8e8817f" />
